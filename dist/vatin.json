@@ -1,0 +1,920 @@
+[
+    {
+        "country": "Austria",
+        "countrycode": "AT",
+        "localname": {
+            "ge": {
+                "long": "Umsatzsteuer-Identifikationsnummer",
+                "short": "UID"
+            }
+        },
+        "formats": [
+            {
+                "rule": "/^(AT)?U\\d{8}$/",
+                "checker": "",
+                "example": "ATU99999999"
+            }
+        ],
+        "rates": [
+            {
+                "name": "standard",
+                "rate": 20
+            },
+            {
+                "name": "",
+                "rate": 12
+            },
+            {
+                "name": "",
+                "rate": 10
+            }
+        ]
+    },
+    {
+        "country": "Belgium",
+        "countrycode": "BE",
+        "localname": {
+            "fr": {
+                "long": "Numéro de TVA",
+                "short": "n° TVA"
+            },
+            "nl": {
+                "long": "BTW identificatienummer",
+                "short": "BTW-nr"
+            }
+        },
+        "formats": [
+            {
+                "rule": "/^(BE)?0\\d{9}$/",
+                "checker": "",
+                "example": "BE0999999999"
+            }
+        ],
+        "rates": [
+            {
+                "name": "standard",
+                "rate": 21
+            },
+            {
+                "name": "",
+                "rate": 12
+            },
+            {
+                "name": "",
+                "rate": 6
+            },
+            {
+                "name": "",
+                "rate": 0
+            }
+        ]
+    },
+    {
+        "country": "Bulgaria",
+        "countrycode": "BG",
+        "localname": {
+            "bg": {
+                "long": "Идентификационен номер по ДДС",
+                "short": "ДДС номер"
+            },
+            "bg2": {
+                "long": "Identifikacionen nomer po DDS",
+                "short": "ДДС номер"
+            }
+        },
+        "formats": [
+            {
+                "rule": "/^(BG)?\\{9,10}d$/",
+                "checker": "",
+                "example": "BG9999999999"
+            }
+        ],
+        "rates": [
+            {
+                "name": "standard",
+                "rate": 20
+            },
+            {
+                "name": "",
+                "rate": 9
+            }
+        ]
+    },
+    {
+        "country": "Croatia",
+        "countrycode": "HR",
+        "localname": {
+            "hr": {
+                "long": "PDV Id. Broj OIB",
+                "short": "PDV-ID"
+            }
+        },
+        "formats": [
+            {
+                "rule": "/^(HR)?\\d{11}$/",
+                "checker": "",
+                "example": "HR99999999999"
+            }
+        ],
+        "rates": [
+        ]
+    },
+    {
+        "country": "Cyprus",
+        "countrycode": "CY",
+        "localname": {
+            "gr": {
+                "long": "Αριθμός Εγγραφής Φ.Π.Α.",
+                "short": "ΦΠΑ"
+            },
+            "gr2": {
+                "long": "Arithmós Engraphḗs phi. pi. a.",
+                "short": "ΦΠΑ"
+            }
+        },
+        "formats": [
+            {
+                "rule": "/^(CY)?\\d{8}[A-Z]{1}$/",
+                "checker": "",
+                "example": "CY99999999L"
+            }
+        ],
+        "rates": [
+            {
+                "name": "standard",
+                "rate": 19
+            },
+            {
+                "name": "",
+                "rate": 9
+            },
+            {
+                "name": "",
+                "rate": 5
+            },
+            {
+                "name": "",
+                "rate": 0
+            }
+        ]
+    },
+    {
+        "country": "Czech Republic",
+        "countrycode": "CZ",
+        "localname": {
+            "": {
+                "long": "Daňové identifikační číslo",
+                "short": "DIČ"
+            }
+        },
+        "formats": [
+            {
+                "rule": "/^(CZ)?\\d{8,10}$/",
+                "checker": "",
+                "example": "CZ9999999999"
+            }
+        ],
+        "rates": [
+            {
+                "name": "standard",
+                "rate": 21
+            },
+            {
+                "name": "",
+                "rate": 15
+            }
+        ]
+    },
+    {
+        "country": "Denmark",
+        "countrycode": "DK",
+        "localname": {
+            "dk": {
+                "long": "Momsregistreringsnummer",
+                "short": "CVR"
+            }
+        },
+        "formats": [
+            {
+                "rule": "/^(DK)?\\d{8}$/",
+                "checker": "",
+                "example": "DK99999999"
+            }
+        ],
+        "rates": [
+            {
+                "name": "standard",
+                "rate": 25
+            },
+            {
+                "name": "",
+                "rate": 0
+            }
+        ]
+    },
+    {
+        "country": "Estonia",
+        "countrycode": "EE",
+        "localname": {
+            "ee": {
+                "long": "Käibemaksukohustuslase number",
+                "short": "KMKR"
+            }
+        },
+        "formats": [
+            {
+                "rule": "/^(EE)?\\d{9}$/",
+                "checker": "",
+                "example": "EE999999999"
+            }
+        ],
+        "rates": [
+            {
+                "name": "standard",
+                "rate": 20
+            },
+            {
+                "name": "",
+                "rate": 9
+            },
+            {
+                "name": "",
+                "rate": 0
+            }
+        ]
+    },
+    {
+        "country": "Finland",
+        "countrycode": "FI",
+        "localname": {
+            "fi": {
+                "long": "Arvonlisäveronumero Mervärdesskattenummer",
+                "short": "ALV nro"
+            }
+        },
+        "formats": [
+            {
+                "rule": "/^(FI)?\\d{9}$/",
+                "checker": "",
+                "example": "FI999999999"
+            }
+        ],
+        "rates": [
+            {
+                "name": "standard",
+                "rate": 24
+            },
+            {
+                "name": "",
+                "rate": 14
+            },
+            {
+                "name": "",
+                "rate": 10
+            },
+            {
+                "name": "",
+                "rate": 0
+            }
+        ]
+    },
+    {
+        "country": "France",
+        "countrycode": "FR",
+        "localname": {
+            "fr": {
+                "long": "Numéro de TVA intracommunautaire",
+                "short": "n° TVA"
+            }
+        },
+        "formats": [
+            {
+                "rule": "/^(FR)?\\d{11}$/",
+                "checker": "",
+                "example": "FR99999999999"
+            }
+        ],
+        "rates": [
+            {
+                "name": "standard",
+                "rate": 20
+            },
+            {
+                "name": "",
+                "rate": 10
+            },
+            {
+                "name": "",
+                "rate": 5.5
+            },
+            {
+                "name": "",
+                "rate": 2.1
+            }
+        ]
+    },
+    {
+        "country": "Germany",
+        "countrycode": "DE",
+        "localname": {
+            "de": {
+                "long": "Umsatzsteuer-Identifikationsnummer",
+                "short": "USt-IdNr."
+            }
+        },
+        "formats": [
+            {
+                "rule": "/^(DE)?\\d{9}$/",
+                "checker": "",
+                "example": "DE999999999"
+            }
+        ],
+        "rates": [
+            {
+                "name": "standard",
+                "rate": 19
+            },
+            {
+                "name": "",
+                "rate": 7
+            }
+        ]
+    },
+    {
+        "country": "Greece",
+        "countrycode": "GR",
+        "localname": {
+            "el": {
+                "long": "Arithmós Forologikou Mētrṓou",
+                "short": "ΑΦΜ"
+            },
+            "gr": {
+                "long": "Αριθμός Φορολογικού Μητρώου",
+                "short": "ΑΦΜ"
+            }
+        },
+        "formats": [
+            {
+                "rule": "/^(EL)?\\d{9}$/",
+                "checker": "",
+                "example": "EL999999999"
+            }
+        ],
+        "rates": [
+            {
+                "name": "standard",
+                "rate": 23
+            },
+            {
+                "name": "",
+                "rate": 13
+            },
+            {
+                "name": "",
+                "rate": 6.5
+            }
+        ]
+    },
+    {
+        "country": "Hungary",
+        "countrycode": "HU",
+        "localname": {
+            "hu": {
+                "long": "Közösségi adószám",
+                "short": "ANUM"
+            }
+        },
+        "formats": [
+            {
+                "rule": "/^(HU)?\\d{8}$/",
+                "checker": "",
+                "example": "HU99999999"
+            }
+        ],
+        "rates": [
+            {
+                "name": "standard",
+                "rate": 27
+            },
+            {
+                "name": "",
+                "rate": 18
+            },
+            {
+                "name": "",
+                "rate": 5
+            }
+        ]
+    },
+    {
+        "country": "Ireland",
+        "countrycode": "IE",
+        "localname": {
+            "en": {
+                "long": "Value added tax identification no.",
+                "short": "VAT"
+            }
+        },
+        "formats": [
+            {
+                "rule": "/^(IE)?\\d{7}[A-Z]{1}(W)?$/",
+                "checker": "",
+                "example": "IE9999999AW"
+            },
+            {
+                "rule": "/^(IE)?\\d{7}[A-Z]{2}$/",
+                "checker": "",
+                "example": "IE9999999AA"
+            },
+            {
+                "rule": "/^(IE)?\\d{1}[A-Z]{1}\\d{5}[A-Z]{1}$/",
+                "checker": "",
+                "example": "IE9A99999A"
+            }
+        ],
+        "rates": [
+            {
+                "name": "standard",
+                "rate": 23
+            },
+            {
+                "name": "",
+                "rate": 13.5
+            },
+            {
+                "name": "",
+                "rate": 9
+            },
+            {
+                "name": "",
+                "rate": 4.8
+            },
+            {
+                "name": "",
+                "rate": 0
+            }
+        ]
+    },
+    {
+        "country": "Italy",
+        "countrycode": "IT",
+        "localname": {
+            "it": {
+                "long": "Partita Imposta sul Valore Aggiunto",
+                "short": "P.IVA"
+            }
+        },
+        "formats": [
+            {
+                "rule": "/^(IT)?\\d{11}$/",
+                "checker": "",
+                "example": "IT99999999999"
+            }
+        ],
+        "rates": [
+            {
+                "name": "standard",
+                "rate": 22
+            },
+            {
+                "name": "",
+                "rate": 10
+            },
+            {
+                "name": "",
+                "rate": 4
+            },
+            {
+                "name": "",
+                "rate": 0
+            }
+        ]
+    },
+    {
+        "country": "Latvia",
+        "countrycode": "LV",
+        "localname": {
+            "lv": {
+                "long": "Pievienotās vērtības nodokļa",
+                "short": "PVN"
+            }
+        },
+        "formats": [
+            {
+                "rule": "/^(LV)?\\d{11}$/",
+                "checker": "",
+                "example": "LV99999999999"
+            }
+        ],
+        "rates": [
+            {
+                "name": "standard",
+                "rate": 21
+            },
+            {
+                "name": "",
+                "rate": 12
+            }
+        ]
+    },
+    {
+        "country": "Lithuania",
+        "countrycode": "LT",
+        "localname": {
+            "lt": {
+                "long": "Pridėtinės vertės mokestis mokėtojo kodas",
+                "short": "PVM kodas"
+            }
+        },
+        "formats": [
+            {
+                "rule": "/^(LV)?\\d{9,12}$/",
+                "checker": "",
+                "example": "LV999999999999"
+            }
+        ],
+        "rates": [
+            {
+                "name": "standard",
+                "rate": 21
+            },
+            {
+                "name": "",
+                "rate": 9
+            },
+            {
+                "name": "",
+                "rate": 5
+            }
+        ]
+    },
+    {
+        "country": "Luxembourg",
+        "countrycode": "LU",
+        "localname": {
+            "fr": {
+                "long": "Numéro d'identification à la taxe sur la valeur ajoutée",
+                "short": "No. TVA"
+            }
+        },
+        "formats": [
+            {
+                "rule": "/^(LU)?\\d{8}$/",
+                "checker": "",
+                "example": "LU99999999"
+            }
+        ],
+        "rates": [
+            {
+                "name": "standard",
+                "rate": 15
+            },
+            {
+                "name": "standard",
+                "rate": 12
+            },
+            {
+                "name": "standard",
+                "rate": 6
+            },
+            {
+                "name": "",
+                "rate": 3
+            }
+        ]
+    },
+    {
+        "country": "Malta",
+        "countrycode": "MT",
+        "localname": {
+            "mt": {
+                "long": "Vat reg. no.",
+                "short": "Vat No."
+            }
+        },
+        "formats": [
+            {
+                "rule": "/^(MT)?\\d{8}$/",
+                "checker": "",
+                "example": "MT99999999"
+            }
+        ],
+        "rates": [
+            {
+                "name": "standard",
+                "rate": 18
+            },
+            {
+                "name": "",
+                "rate": 7
+            },
+            {
+                "name": "",
+                "rate": 5
+            },
+            {
+                "name": "",
+                "rate": 0
+            }
+        ]
+    },
+    {
+        "country": "Netherlands",
+        "countrycode": "NL",
+        "localname": {
+            "nl": {
+                "long": "Btw-nummer",
+                "short": "Btw-nr."
+            }
+        },
+        "formats": [
+            {
+                "rule": "/^(NL)?\\d{9}B\\d{2}$/",
+                "checker": "",
+                "example": "NL999999999B99"
+            }
+        ],
+        "rates": [
+            {
+                "name": "standard",
+                "rate": 21
+            },
+            {
+                "name": "",
+                "rate": 6
+            }
+        ]
+    },
+    {
+        "country": "Poland",
+        "countrycode": "PL",
+        "localname": {
+            "pl": {
+                "long": "numer identyfikacji podatkowej",
+                "short": "NIP"
+            }
+        },
+        "formats": [
+            {
+                "rule": "/^(PL)?\\d{10}$/",
+                "checker": "",
+                "example": "PL9999999999"
+            },
+            {
+                "rule": "/^(PL)?\\d{3}-\\d{3}-\\d{2}-\\d{2}$/",
+                "checker": "",
+                "example": "PL999-999-99-99"
+            },
+            {
+                "rule": "/^(PL)?\\d{3}-\\d{2}-\\d{2}-\\d{3}$/",
+                "checker": "",
+                "example": "PL999-99-99-999"
+            }
+        ],
+        "rates": [
+            {
+                "name": "standard",
+                "rate": 23
+            },
+            {
+                "name": "",
+                "rate": 8
+            },
+            {
+                "name": "",
+                "rate": 5
+            },
+            {
+                "name": "",
+                "rate": 0
+            }
+        ]
+    },
+    {
+        "country": "Portugal",
+        "countrycode": "PT",
+        "localname": {
+            "pt": {
+                "long": "Número de Identificação Fiscal",
+                "short": "NIF"
+            },
+            "pt2": {
+                "long": "Número de Identificação de Pessoa Coletiva",
+                "short": "NIPC"
+            }
+        },
+        "formats": [
+            {
+                "rule": "/^(PT)?\\d{9}$/",
+                "checker": "",
+                "example": "PT999999999"
+            }
+        ],
+        "rates": [
+            {
+                "name": "standard",
+                "rate": 23
+            },
+            {
+                "name": "",
+                "rate": 13
+            },
+            {
+                "name": "",
+                "rate": 6
+            }
+        ]
+    },
+    {
+        "country": "Romania",
+        "countrycode": "RO",
+        "localname": {
+            "ro": {
+                "long": "Codul de identificare fiscală",
+                "short": "CIF"
+            }
+        },
+        "formats": [
+            {
+                "rule": "/^(RO)?\\d{8}$/",
+                "checker": "",
+                "example": "RO99999999"
+            }
+        ],
+        "rates": [
+            {
+                "name": "standard",
+                "rate": 24
+            },
+            {
+                "name": "",
+                "rate": 9
+            },
+            {
+                "name": "",
+                "rate": 5
+            }
+        ]
+    },
+    {
+        "country": "Slovakia",
+        "countrycode": "SK",
+        "localname": {
+            "sk": {
+                "long": "Identifikačné číslo pre daň z pridanej hodnoty",
+                "short": "IČ DPH"
+            }
+        },
+        "formats": [
+            {
+                "rule": "/^(SK)?\\d{10}$/",
+                "checker": "",
+                "example": "SK9999999999"
+            }
+        ],
+        "rates": [
+            {
+                "name": "standard",
+                "rate": 20
+            },
+            {
+                "name": "",
+                "rate": 10
+            }
+        ]
+    },
+    {
+        "country": "Slovenia",
+        "countrycode": "SI",
+        "localname": {
+            "si": {
+                "long": "Identifikacijska številka za DDV",
+                "short": "ID za DDV"
+            }
+        },
+        "formats": [
+            {
+                "rule": "/^(SI)?\\d{8}$/",
+                "checker": "",
+                "example": "SI99999999"
+            }
+        ],
+        "rates": [
+            {
+                "name": "standard",
+                "rate": 22
+            },
+            {
+                "name": "",
+                "rate": 9.5
+            }
+        ]
+    },
+    {
+        "country": "Spain",
+        "countrycode": "ES",
+        "localname": {
+            "es": {
+                "long": "Número de Identificación Fiscal",
+                "short": "NIF"
+            }
+        },
+        "formats": [
+            {
+                "rule": "/^(ES)?[A-Z]{1}\\d{8}$/",
+                "checker": "",
+                "example": "ESA99999999"
+            },
+            {
+                "rule": "/^(ES)?[A-Z]{1}\\d{7}[A-Z]{1}$/",
+                "checker": "",
+                "example": "ESA9999999A"
+            },
+            {
+                "rule": "/^(ES)?\\d{8}[A-Z]{1}$/",
+                "checker": "",
+                "example": "ES99999999A"
+            }
+        ],
+        "rates": [
+            {
+                "name": "standard",
+                "rate": 21
+            },
+            {
+                "name": "",
+                "rate": 10
+            },
+            {
+                "name": "",
+                "rate": 4
+            }
+        ]
+    },
+    {
+        "country": "Sweden",
+        "countrycode": "SE",
+        "localname": {
+            "se": {
+                "long": "momsregistreringsnummer",
+                "short": "Momsnr."
+            }
+        },
+        "formats": [
+            {
+                "rule": "/^(SE)?\\d{10}01$/",
+                "checker": "",
+                "example": "SE999999999901"
+            }
+        ],
+        "rates": [
+            {
+                "name": "standard",
+                "rate": 25
+            },
+            {
+                "name": "",
+                "rate": 12
+            },
+            {
+                "name": "",
+                "rate": 6
+            },
+            {
+                "name": "",
+                "rate": 0
+            }
+        ]
+    },
+    {
+        "country": "United Kingdom",
+        "countrycode": "GB",
+        "localname": {
+            "en": {
+                "long": "Value added tax registration number",
+                "short": "VAT Reg No"
+            }
+        },
+        "formats": [
+            {
+                "rule": "/^(GB)?\\d{9}$/",
+                "checker": "",
+                "example": "GB999999999"
+            }
+        ],
+        "rates": [
+            {
+                "name": "standard",
+                "rate": 20
+            },
+            {
+                "name": "",
+                "rate": 5
+            },
+            {
+                "name": "",
+                "rate": 10
+            }
+        ]
+    }
+]
